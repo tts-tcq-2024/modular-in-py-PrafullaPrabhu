@@ -12,4 +12,3 @@ def create_reference_manual():
 
 if __name__ == '__main__':
     manual = create_reference_manual()
-    print(manual)
