@@ -1,4 +1,4 @@
-from color_code import MAJOR_COLORS, MINOR_COLORS, get_pair_number_from_color, color_pair_to_string
+from color_coder import MAJOR_COLORS, MINOR_COLORS, get_pair_number_from_color, color_pair_to_string
 
 
 def create_reference_manual():
@@ -12,3 +12,4 @@ def create_reference_manual():
 
 if __name__ == '__main__':
     manual = create_reference_manual()
+    print(manual)
