@@ -1,5 +1,5 @@
-from tests import run_tests
-from manual import create_reference_manual
+from color_coding_tests import run_tests
+from color_reference_manual_generator import create_reference_manual
 
 
 def main():
@@ -7,9 +7,7 @@ def main():
     run_tests()
 
     # Generating and printing the reference manual
-    manual = create_reference_manual()
-    print('Color Code Reference Manual:')
-    print(manual)
+    create_reference_manual()
 
 
 if __name__ == '__main__':
